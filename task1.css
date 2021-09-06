@@ -1,0 +1,72 @@
+body
+{
+		background-image: url(flu3.jpg);
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		background-size: cover;
+}
+
+.cards
+{
+	 display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+}
+
+.options
+{
+	 display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 400px;
+}
+
+img
+{
+	width: 150px;
+}
+
+#opt
+{
+	width: 400px;
+	height: 280px;
+}
+
+.cardone
+{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:400px;
+  margin-left:20px;
+  height: 450px;
+  background-color: white;
+}
+
+.card 
+{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width:450px;
+  margin-left:20px;
+  height: 180px;
+ }
+
+.card:hover 
+{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.container 
+{
+  padding: 2px 16px;
+ }
+
+#dash
+{
+	margin-left: 20px;
+	color: white;
+}
+
+
